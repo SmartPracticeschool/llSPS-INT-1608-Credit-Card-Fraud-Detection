@@ -1,0 +1,162 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credit Card Fraud Prediction</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet"> 
+	<style>
+	.bg-dark {
+		background-color: #42678c!important;
+	}
+	#result {
+		color: #0a1c4ed1;
+	}
+	body 
+	{
+     background-color:#f4c2c2;
+     background-repeat: no-repeat;
+     filter:alpha(opacity=40)
+     background-attachment: fixed; 
+     background-size: 100% 100%;
+}
+	</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"> </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content" style="margin-top:2em">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-6 bd" >
+			  <br>
+			  <p><b></b></p>
+				      
+			</div>
+			<div class="col-sm-6">
+				<div>
+			<h4>Please enter the values here :</h4>
+			<form action = "http://localhost:5000/login" method = "post">			
+
+            <p><b> Time </b></p>
+            <p> <input type = "text" name = "Time"/></p>
+
+            
+            <p><b> V1 </b></p>
+            <p> <input type = "text" name = "V1"/></p>
+
+            <p><b> V2 </b></p>
+            <p> <input type = "text" name = "V2"/></p>
+            
+            <p><b> V3 </b></p>
+            <p> <input type = "text" name = "V3"/></p>
+
+            <p><b> V4 </b></p>
+            <p> <input type = "text" name = "V4"/></p>
+
+            <p><b> V5 </b></p>
+            <p> <input type = "text" name = "V5"/></p>
+
+            <p><b> V6 </b></p>
+            <p> <input type = "text" name = "V6"/></p>
+
+            <p><b> V7 </b></p>
+            <p> <input type = "text" name = "V7"/></p>
+
+            <p><b> V8 </b></p>
+            <p> <input type = "text" name = "V8"/></p>
+
+            <p><b> V9 </b></p>
+            <p> <input type = "text" name = "V9"/></p>
+
+            <p><b> V10 </b></p>
+            <p> <input type = "text" name = "V10"/></p>
+
+            <p><b> V11 </b></p>
+            <p> <input type = "text" name = "V11"/></p>
+
+            <p><b> V12 </b></p>
+            <p> <input type = "text" name = "V12"/></p>
+
+            <p><b> V13 </b></p>
+            <p> <input type = "text" name = "V13"/></p>
+
+            <p><b> V14 </b></p>
+            <p> <input type = "text" name = "V14"/></p>
+
+            <p><b> V15 </b></p>
+            <p> <input type = "text" name = "V15"/></p>
+
+            <p><b> V16 </b></p>
+            <p> <input type = "text" name = "V16"/></p>
+
+            <p><b> V17 </b></p>
+            <p> <input type = "text" name = "V17"/></p>
+
+            <p><b> V18 </b></p>
+            <p> <input type = "text" name = "V18"/></p>
+
+            <p><b> V19 </b></p>
+            <p> <input type = "text" name = "V19"/></p>
+
+            <p><b> V20 </b></p>
+            <p> <input type = "text" name = "V20"/></p>
+
+            <p><b> V21 </b></p>
+            <p> <input type = "text" name = "V21"/></p>
+
+            <p><b> V22 </b></p>
+            <p> <input type = "text" name = "V22"/></p>
+
+            <p><b> V23 </b></p>
+            <p> <input type = "text" name = "V23"/></p>
+
+            <p><b> V24 </b></p>
+            <p> <input type = "text" name = "V24"/></p>
+
+            <p><b> V25 </b></p>
+            <p> <input type = "text" name = "V25"/></p>
+
+            <p><b> V26 </b></p>
+            <p> <input type = "text" name = "V26"/></p>
+
+            <p><b> V27 </b></p>
+            <p> <input type = "text" name = "V27"/></p>
+
+            <p><b> V28 </b></p>
+            <p> <input type = "text" name = "V28"/></p>
+
+            <p><b> Amount </b></p>
+            <p> <input type = "text" name = "Amount"/></p>
+
+            
+            <p> <input type = "submit" value = "Submit" class="btn btn-info btn-lg " /></p>
+            
+            <b>{{showcase}}</b> 
+            
+            </form>
+            	
+			</div>
+			</div>
+			
+			</div>
+			</div>
+			 
+		  </div>
+		</div>
+		</div>
+    </div>
+</body>
+
+</html>
